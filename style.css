@@ -15,7 +15,8 @@ h1 {
 input {
     width: 95%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: 15px;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
@@ -32,10 +33,10 @@ button {
     width: 100%;
 }
 
-/*button:hover {
-    transform: scale(1.1);
-    box-shadow: 10px #020817;
-}*/
+button:hover {
+    transition: transform 0.5;
+    transform: scale(1.03);
+}
 
 #resultado {
     margin-top: 20px;
